@@ -11,12 +11,16 @@ Exercises
 
 a) print('x =', x) 
 
-
+ANSWER
+IT IS GOING TO DISPLAYS THE STRING IN SINGLE QUOTE I.E, X= THEN IT DISPLAYS DECLARED ASSIGNED VALUE OF X WHICJH IS 2.
+OUTPUT WILL BE X=2. ANSWER.
 
 
 b)
 print('Value of', x, '+', x, 'is', (x + x)) 
 
+ANSWER
+OUTPUTS A STRING IN ALL THE SINGLE AND DOUBLE QUOTES SAYING THE VALUE OF X + PLUS 2 IS 2+2
 
 
 c) print('x =') d) print((x + y), '=', (y + x)) 
