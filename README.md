@@ -66,6 +66,10 @@ A STRING PROMPT
 
 2.3 (Fill in the missing code) Replace *** in the following code with a statement that will print a message like 'Congratulations! Your grade of 91 earns you an A in this course'. Your statement should print the value stored in the variable grade: if grade >= 90: *** 
 
+ANSWER
+if grade >= 90: 
+   print ( congratulations you earned an A)
+
 
 
 2.4 (Arithmetic) For each of the arithmetic operators +, -, *, /, // and **, display the value of an expression with 27.5 as the left operand and 2 as the right operand.
