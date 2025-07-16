@@ -31,6 +31,8 @@ OUTPUT IS THE STRING X=
 
 
 d) print((x + y), '=', (y + x)) 
+OUTPUT IS THE INTEGER 5 FOLLOWED BY THE STRING = FOLLOWED BY 5
+IE 5=5
 
 
 
