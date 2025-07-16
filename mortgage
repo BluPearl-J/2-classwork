@@ -1,0 +1,32 @@
+amount= int (input(" Enter principal amount"));
+print ("your principal amount", amount);
+
+interest_rate= int (input("Enter annual interest rate "));
+print ("your annual interest rate", interest_rate);
+
+
+duration_in_years = int (input("Enter loan duration in years"));
+
+
+print ("your loan duration in years is ", duration_in_years);
+
+
+percentage_monthly_rate = (int (interest_rate * 12/100));
+print ( "your percentage monthly rate  is", percentage_monthly_rate ); 
+
+
+number_of_months_from_duration = duration_in_years*12;
+print ( "your number of months from duration  is", 
+number_of_months_from_duration );
+
+add_power = (int ( 1 + percentage_monthly_rate) ** 
+(number_of_months_from_duration)) ;
+
+dog = (int(add_power)* (percentage_monthly_rate));
+cat = (int(add_power)- (percentage_monthly_rate));
+lizard = (int (amount * dog) / (cat ));
+print ("the value of M your mortgages is " , lizard);
+
+
+
+
