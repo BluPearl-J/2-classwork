@@ -23,7 +23,14 @@ ANSWER
 OUTPUTS A STRING IN ALL THE SINGLE AND DOUBLE QUOTES SAYING THE VALUE OF X + PLUS 2 IS 2+2
 
 
-c) print('x =') d) print((x + y), '=', (y + x)) 
+c) print('x =') 
+
+ANSWER 
+OUTPUT IS THE STRING X= 
+
+
+
+d) print((x + y), '=', (y + x)) 
 
 
 
