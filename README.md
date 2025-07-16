@@ -75,8 +75,11 @@ if grade >= 90:
 2.4 (Arithmetic) For each of the arithmetic operators +, -, *, /, // and **, display the value of an expression with 27.5 as the left operand and 2 as the right operand.
 
 27.5 + 2
+
 27.5 * 2
+
 27.5 // 2
+
 27.5  / 2
 
 
