@@ -91,12 +91,12 @@ pie = 3.14159
 radius = int 2
 
 diameter = 2 * radius
-circumference = 2 * PI * radius
-area = PI * radius * radius
+circumference = 2 * pie * radius
+area = pie * radius * radius
 
-print(" \nDiameter Of a Circle = %.2f" %diameter)
-print(" Circumference Of a Circle = %.2f" %circumference)
-print(" Area Of a Circle = %.2f" %area)
+print(diameter)
+print(int(circumference0)
+print(area)
 
 
 2.6 (Odd or Even) Use if statements to determine whether an integer is odd or even. [Hint: Use the remainder operator. An even number is a multiple of 2. Any multiple of 2 leaves a remainder of 0 when divided by 2.] 
