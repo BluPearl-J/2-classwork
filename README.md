@@ -53,7 +53,14 @@ max(47, 95, 88, 73, 88, 84)) ...: Range: 47 - 95
 
 
 
-Exercises 71 2.2 (What’s wrong with this code?) The following code should read an integer into the variable rating: rating = input('Enter an integer rating between 1 and 10') 
+Exercises 71 2.2 (What’s wrong with this code?) The following code should read an integer into the variable rating: 
+
+
+rating = input('Enter an integer rating between 1 and 10') 
+
+ANSWER
+IT WILL OUTPUT EXACTLY A STRING DISPLAY.
+A STRING PROMPT 
 
 
 
