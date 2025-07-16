@@ -43,7 +43,7 @@ IE 5=5
 
 
 In [1]: min(47, 95, 88, 73, 88, 84) Out[1]: 47
-
+THIS CODE IS  UTIL ising USING MATHS MNIMUM FUNCTION DETERMINE LEAST OF SET OF NUMBERS.
 
 
 
@@ -52,16 +52,18 @@ In [1]: min(47, 95, 88, 73, 88, 84) Out[1]: 47
 
 
 In [2]: max(47, 95, 88, 73, 88, 84) Out[2]: 95 
-
+maximum
 
 
 
 
 
 In [3]: print('Range:', min(47, 95, 88, 73, 88, 84), '-', ...:
+answer
 
 
-max(47, 95, 88, 73, 88, 84)) ...: Range: 47 - 95 
+
+max(47, 95, 88, 73, 88, 84)) ..95.: Range: 47 - 95 
 
 
 
@@ -74,6 +76,7 @@ rating = input('Enter an integer rating between 1 and 10')
 ANSWER
 IT WILL OUTPUT EXACTLY A STRING DISPLAY.
 A STRING PROMPT 
+the int typed in can  convert string to integer
 
 
 
