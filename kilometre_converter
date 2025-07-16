@@ -5,11 +5,15 @@
   # while i < 500;
 #  i++;
 
-miles = 175 ;
-
-print ("your miles value is", miles);
 
 MILES_PER_KILOMETER = 1.609;
 
+miles = 175 ;
+
+print ("your miles value is", miles);
+ 
+print ("your constant is ", MILES_PER_KILOMETER );
+
 kilometers=  int(MILES_PER_KILOMETER * miles);
-print =  ("your kilometers value is", kilometers );
+
+print  ("your kilometers value is", kilometers );
