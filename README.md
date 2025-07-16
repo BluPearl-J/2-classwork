@@ -87,6 +87,17 @@ if grade >= 90:
  2.5 (Circle Area, Diameter and Circumference) For a circle of radius 2, display the diameter, circumference and area. Use the value 3.14159 for π. Use the following formulas (r is the radius): diameter = 2r, circumference = 2πr and area = πr2. [In a later chapter, we’ll introduce Python’s math module which contains a higher-precision representation of π.] 
 
 
+pie = 3.14159
+radius = int 2
+
+diameter = 2 * radius
+circumference = 2 * PI * radius
+area = PI * radius * radius
+
+print(" \nDiameter Of a Circle = %.2f" %diameter)
+print(" Circumference Of a Circle = %.2f" %circumference)
+print(" Area Of a Circle = %.2f" %area)
+
 
 2.6 (Odd or Even) Use if statements to determine whether an integer is odd or even. [Hint: Use the remainder operator. An even number is a multiple of 2. Any multiple of 2 leaves a remainder of 0 when divided by 2.] 
 
