@@ -101,6 +101,12 @@ print(area)
 
 2.6 (Odd or Even) Use if statements to determine whether an integer is odd or even. [Hint: Use the remainder operator. An even number is a multiple of 2. Any multiple of 2 leaves a remainder of 0 when divided by 2.] 
 
+
+Oddoreven = int(input("Enter any number: "))
+if (number % 2) == 0:
+   print("even))
+else:
+   print(odd))
 2.7 (Multiples) Use if statements to determine whether 1024 is a multiple of 4 and whether 2 is a multiple of 10. (Hint: Use the remainder operator.) 
 
 
