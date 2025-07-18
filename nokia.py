@@ -80,3 +80,25 @@ match (phoneBookMenuNumbers):
                        print("phoneBookError");
 print ("PROMPTING YOU ENTER ANY OPTIONS FROM 1 TO 2 TO CHOOSE SERVICE");
 
+optionsMenu =         """
+                               1.Type of view
+                               2.memoryStatus
+                       """;
+
+print (optionsMenu);
+
+options = int( input ("Enter your chosen nokia number"));
+                  
+match (options):
+  
+                    case 1:
+                      print("typeOfView");
+                
+                    case 2:
+                      print("memoryStatus");
+                    case _:
+                       print("error");
+
+
+            
+
