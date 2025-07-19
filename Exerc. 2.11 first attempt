@@ -1,0 +1,18 @@
+
+number = int( input ("ENTER ANY FIVE DIGITS NUMBER"));
+
+print ("Your five digits number entered is", number);
+
+a = int( input ("Enter the first digit of your five digit number"));
+
+
+b = int( input ("Enter the 2nd digit of your five digit number"));
+
+c = int( input ("Enter the 3rd digit of your five digit number"));
+
+d = int( input ("Enter the 4th digit of your five digit number"));
+
+E = int( input ("Enter the fifth digit of your five digit number"));
+
+print ("your fivedigits are", a , b , c , d ,  E);
+ 
