@@ -1,0 +1,26 @@
+HEART_CONSTANT = 220 ;
+
+age_in_years = int( input ("PromptEnter your age in years"));
+
+print ("your total age is",age_in_years );
+
+maximum_Heart_Rate = HEART_CONSTANT - age_in_years;
+
+
+print ("your maximum heart rate is ",maximum_Heart_Rate );
+
+LOWER_RANGE_HEARTRATE = 0.5;
+
+HIGHER_RANGEHEART_RATE =0.85;
+
+target_Heart_Rate = (LOWER_RANGE_HEARTRATE * maximum_Heart_Rate) ;
+
+print (" Minimum range of your target heart rate is ",target_Heart_Rate  );
+
+higher_Target = HIGHER_RANGEHEART_RATE * maximum_Heart_Rate
+
+print (" The Maximum range of your target heart rate is ",higher_Target  );
+
+print ("your range of heart rate minimum and maximum values are ",target_Heart_Rate , higher_Target );
+
+
