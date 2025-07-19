@@ -1,0 +1,57 @@
+#2.8 (Table of Squares and Cubes) Write a script that calculates the squares and cubes
+#of the numbers from 0 to 5. Print the resulting values in table format, as shown below. Use
+#the tab escape sequence to achieve the three-column output.
+#number square cube 
+#0 0 0
+#1 1 1
+#2 4 8
+#3 9 27
+#4 16 64
+#5 25 125
+#The next chapter shows how to “right align” numbers. You could try that as an extra challenge here. The output would be:
+#number square cube 
+# 0 0 0
+#1 1 1
+#2 4 8
+#3 9 27
+#4 16 64
+#5 25 125
+
+## Example  \t to space tabs in python
+#print("Name\tAge\tCity")
+
+
+
+
+
+
+FIRST = 1;
+TWO = 2;
+THREE = "3";
+FOUR = "4";
+FIVE = "5";
+
+a= "9" #FIRST * FIRST
+b= "27"  #FIRST*FIRST*FIRST
+
+c= "4"   #TWO * TWO
+d= "8"   #TWO*TWO*TWO
+
+e=   "9" # THREE *THREE
+f=    "27"  #THREE*THREE*THREE
+
+g=  "16"   #FOUR * FOUR
+h=   "64"  #FOUR*FOUR*FOUR
+
+print("NUMBER\tSQUARE\tCUBE")
+print("ZER0\t0\t0" )
+print("FIRST\t1\t1" )
+print("TWO\t4\t8")
+print("THREE\t9\t27")
+print("FOUR\t16\t64")
+print("FIVE\t25\t125")
+
+
+
+
+
