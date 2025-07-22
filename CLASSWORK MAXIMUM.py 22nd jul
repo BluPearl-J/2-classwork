@@ -1,0 +1,33 @@
+SCOREA = 62  
+
+SCOREB = 98
+SCOREC = 85 
+ 
+print  ("your integer values are", SCOREA, SCOREB, SCOREC )
+if SCOREA >= SCOREB and SCOREA >= SCOREC:
+    print(SCOREA)
+
+
+
+
+elif SCOREB>= SCOREA and SCOREB >= SCOREC :
+    print("maximum Grade", SCOREB)
+elif SCOREC >= SCOREB and SCOREC >= SCOREA:
+    print(SCOREC)
+else:
+    print(SCOREC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
