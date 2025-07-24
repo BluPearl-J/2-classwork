@@ -317,7 +317,65 @@ match (nokiaNumbers):
 
 
     case 5:
-        print("TONES")
+   
+        
+
+        print("PROMPTING YOU SELECT FROM 1 TO 9 TO CHOOSE SERVICE OF CALL REGISTER")
+        tonesMenu =         """
+                                
+                               TONES
+                               1.RINGING TONE
+                               2.RINGING VOLUME
+                               3.INCOMING CALL ALERT
+                               4.COMPOSER
+                               5.MESSAGE ALERT TONE
+                               6.KEYPAD TONES
+                               7.WARNING AND GAME TONES
+                               8. VIBRATING ALERT
+                               9. SCREENSAVER
+                               
+                       """
+        print(tonesMenu)
+
+        tones = int(input("Enter your chosen TONES menu number: "))
+
+        match (tones):
+            case 1:
+                print("RINGINGTONES")
+            case 2:
+                print("RINGING VOLUME")
+            case 3:
+                print("INCOMING CALL ALERT")
+            case 4:
+                print("COMPOSER")
+            case 5:
+                print("MESSAGE ALERT TONE")
+            case 6:
+                print("KEYPAD TONE")
+            case 7:
+                print("WARNING TONE")
+            case 8:
+                print("VIBRATING ALERT")
+            case 9:
+                print("SCREENSAVER")
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     case 6:
         print("SETTINGS")
     case 7:
@@ -334,6 +392,10 @@ match (nokiaNumbers):
         print("PROFILES")
     case 13:
         print("SIMSERVICES")
+
+
+                   
+
 
 
                    
