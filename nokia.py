@@ -387,7 +387,36 @@ match (nokiaNumbers):
     case 10:
         print("REMINDERS")
     case 11:
-        print("CLOCK")
+       
+        print("PROMPTING YOU SELECT FROM 1 TO 6 TO CHOOSE SERVICE OF CLOCK REGISTER")
+        clockMenu =         """
+                                
+                               CLOCK
+                               1.ALARM CLOCK
+                               2.CLOCK SETTINGS
+                               3.DATE SETTINGS
+                               4.STOPWATCH
+                               5.COUNTDOWNTIMER
+                               6.AUTO UPDATE 
+                                      
+                       """
+        print(clockMenu)
+
+        clock = int(input("Enter your chosen CLOCK menu number: "))
+
+        match (clock):
+            case 1:
+                print("ALARM CLOCK")
+            case 2:
+                print("CLOCK SETTINGS")
+            case 3:
+                print("DATE SETTINGS")
+            case 4:
+                print("STOPWATCH")
+            case 5:
+                print("COUNTDOWN TIMER")
+            case 6:
+                print("AUTO UPDATE TIME DATE")
     case 12:
         print("PROFILES")
     case 13:
@@ -395,6 +424,7 @@ match (nokiaNumbers):
 
 
                    
+
 
 
 
