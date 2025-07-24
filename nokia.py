@@ -378,6 +378,140 @@ match (nokiaNumbers):
 
     case 6:
         print("SETTINGS")
+
+
+
+
+
+       
+        print("SELECT FROM 1 TO 4 TO CHOOSE SERVICE ")
+        settingsMenu =         """
+                                
+                               SETTINGS
+                               1.CALL SETTINGS
+                               2.PHONE SETTINGS
+                               3.SECURITY SETTINGS
+                               4.RESTORE FACTORY SETTTINGS
+                               
+                                      
+                       """
+        print(settingsMenu)
+
+        settings = int(input("Enter your chosen CLOCK menu number: "))
+
+        match (settings):
+            case 1:
+                print("CALL SETTINGS")
+                print("PROMPTING YOU ENTER ANY  SETTINGS FROM 1 TO 6 TO SELECT SERVICE")
+                callMenu =         """
+                                
+                               CALL SETTINGS
+                               1.Automatic Redial
+                               2.Speed dialing
+                               3.Call waiting  options
+                               4. Own number sending
+                               5.Phone line in use
+                               6. Automatic answer
+                       """
+                print(callMenu)
+                callSettings = int(input("Enter your chosen message settings number: "))
+
+                match (callSettings):
+                    case 1:
+                        print("AUTOMATIC REDIAL")
+                    case 2:
+                        print("SPEED DIALING")
+                    case 3  :
+                        print("CALL WAITING OPTIONS")
+                    case 4:
+                        print("OWN NUMBER SENDING")
+
+                    case 5:
+                        print("PHONE LINE IN USE")
+                    case 6:
+                        print("AUTOMATIC ANSWER")
+
+
+            case 2:
+                print("PHONE SETTINGS")
+
+
+                print("PROMPTING YOU ENTER ANY  SETTINGS FROM 1 TO 6 TO SELECT SERVICE")
+                phoneMenu =         """
+                                
+                               PHONE SETTINGS
+                               1.Language
+                               2.Cell Info Display
+                               3.Welcome note
+                               4.Network Selection
+                               5.LIGHTS
+                               6. Confirm SIM service actions
+                       """
+                print(phoneMenu)
+                phoneSettings = int(input("Enter your chosen message settings number: "))
+
+                match (phoneSettings):
+                    case 1:
+                        print("LANGUAGE")
+                    case 2:
+                        print("CELL INFO DISPLAY")
+                    case 3  :
+                        print("WELCOME NOTE")
+                    case 4:
+                        print("NETWORK SELECTION")
+
+                    case 5:
+                        print("LIGHTS")
+                    case 6:
+                        print("COFITRM SIM service actions")
+
+
+
+
+
+
+
+
+            case 3:
+                print("SECURITY SETTINGS")
+
+
+                print("PROMPTING YOU ENTER ANY  SETTINGS FROM 1 TO 6 TO SELECT SERVICE")
+                securityMenu =         """
+                                
+                               SECURITY SETTINGS
+                               1.PIN CODE REQUEST
+                               2.CALL BARRING SERVICE
+                               3.FIXED DIALLING
+                               4.CLOSED USER GROUP
+                               5.PHONE SECURITY
+                               6.CHANGE ACCESS CODES
+                       """
+                print(securityMenu)
+                securitySettings = int(input("Enter your chosen message settings number: "))
+
+                match (securitySettings):
+                    case 1:
+                        print("PIN CODE REQUEST")
+                    case 2:
+                        print("CALL BARRING SERVICE")
+                    case 3  :
+                        print("FIXED DIALLING")
+                    case 4:
+                        print("CLOSED USER GROUP")
+
+                    case 5:
+                        print("PHONE SECURITY")
+                    case 6:
+                        print("CHANGE ACCESS CODES")
+
+
+
+
+
+            case 4:
+                print("RESTORE FACTORY SETTINGS")
+           
     case 7:
         print("CALL DIVERT")
     case 8:
@@ -421,6 +555,11 @@ match (nokiaNumbers):
         print("PROFILES")
     case 13:
         print("SIMSERVICES")
+
+
+                   
+
+
 
 
                    
