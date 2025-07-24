@@ -1,5 +1,4 @@
-
-              menu =  """
+menu =  """
 		1. phoneBook
                2. messages
                3. chat
@@ -179,6 +178,144 @@ match (nokiaNumbers):
         print("CHAT")
     case 4:
         print("CALL REGISTER")
+        print("PROMPTING YOU SELECT FROM 1 TO 8 TO CHOOSE SERVICE OF CALL REGISTER")
+        callRegisterMenu =         """
+                                
+                               CALL REGISTER
+                               1.Missed Calls
+                               2.Received Calls
+                               3.Dialled Numbers
+                               4.Erase recent call lists
+                               5.Show Call duration
+                               6.Show Call Costs
+                               7.Call Cost Settings
+                               8. Prepaid Credit
+                               
+                       """
+        print(callRegisterMenu)
+
+        callRegister = int(input("Enter your chosen call Register menu number: "))
+
+        match (callRegister):
+            case 1:
+                print("MISSEDCALLS")
+            case 2:
+                print("RECEIVED CALLS")
+            case 3:
+                print("DIALLED NUMBERS")
+            case 4:
+                print("ERASE RECENT CALL LISTS")
+            case 5:
+                print("Show Call duration")
+
+           
+                print("PROMPTING YOU ENTER ANY CALL DURATION OPTIONS FROM 1 TO 5 TO CHOOSE SERVICE")
+                
+                callDurationMenu =         """
+                                
+                               SHOW CALL DURATION
+                               1.Last Call duration
+                               2.All calls duration
+                               3.Received call duration
+                               4.Dialled calls duration
+                               5.clear timers
+                               
+                               
+                     """
+
+                print(callDurationMenu)
+
+                callDuration = int(input("select number to show call duration : "))
+
+                match (callDuration):
+                    case 1:
+                        print("LAST CALL DURATION")
+                    case 2:
+                        print("ALL CALL DURATION")             
+                    case 3:
+                        print("RECEIVED CALL DURATION")
+                    case 4:
+                        print("DIALLED CALL DURATION")
+                    case 5:
+                        print("CLEAR TIMERS")
+
+
+
+
+
+
+            case 6:
+                print("Show Call costs")
+                print("PROMPT ENTER ANY call cost OPTIONS FROM 1 TO 3 TO CHOOSE SERVICE")
+                
+                callCostMenu =         """
+                                
+                               SHOW CALL aCOSTS
+                               1.Last Call COST
+                               2.All calls cost
+                               3.Clear Counters
+                               
+                               
+                               
+                     """
+
+                print(callCostMenu)
+
+                callCost = int(input("select number to show call duration : "))
+
+                match (callCost):
+                    case 1:
+                        print("LAST CALL COST")
+                    case 2:
+                        print("ALL CALL COST")             
+                    case 3:
+                        print("CLEAR COUNTERS")
+                   
+
+
+
+
+
+
+
+
+
+            case 7:
+                print("Call COST SETTINGS")
+
+
+
+
+                print("PROMPT ENTER ANY call cost OPTIONS FROM 1 TO 2 TO CHOOSE SERVICE")
+                
+                callMenu =         """
+                                
+                               CALL COST SETTINGS
+                               1.Call COST LIMIT
+                               2.SHOW COSTS IN
+                               
+                                       
+                     """
+
+                print(callMenu)
+
+                call = int(input("select number to show call duration : "))
+
+                match (call):
+                    case 1:
+                        print("CALL COST LIMIT")
+                    case 2:
+                        print("SHOW COST IN")             
+                   
+                   
+            case 8:
+                print("Prepaid Credit")
+
+
+
+
+
+
     case 5:
         print("TONES")
     case 6:
@@ -200,6 +337,8 @@ match (nokiaNumbers):
 
 
                    
+
+
 
 
 
