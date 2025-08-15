@@ -1,5 +1,5 @@
 import unittest
-import cube
+import two
 
 class TestGetLengthFunction(unittest.TestCase): 
         def test_that_get_length_array_function_exists(self)
