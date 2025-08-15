@@ -1,3 +1,5 @@
+from unittest import TestCase
+import functions
 import unittest
 import two
 
