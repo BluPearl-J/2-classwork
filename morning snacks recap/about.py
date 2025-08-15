@@ -11,3 +11,12 @@ Output:[1,4,9,16,25]
 
 #words=["apple", "banana","cherry"]
 #output:[5,6]
+
+
+
+#4
+#using FILTER() CREATE A PYTHON FUNCTION
+#THAT FILTERS ALL THE WORDS WITH MORE THAN 5 CHARACTERS FROM THE FOLLOWING LIST
+#SAMPLE
+#WORDS=["apple","banana","kiwi","grapes","cherry"]
+#output: ["apple","kiwi"]
